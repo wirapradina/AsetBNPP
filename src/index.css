@@ -1,0 +1,55 @@
+@import "tailwindcss";
+.sidebar-menu {
+  border-radius: 12px;
+  color: black;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+
+.sidebar-menu:hover {
+  background-color: #f5f3ff;
+  color: black;
+  border: 1px solid black;
+}
+
+.active-sidebar {
+  background-color: #f1ebff !important;
+  color: black !important;
+  border-radius: 12px;
+  border: 1px solid black !important;
+}
+.sidebar-menu {
+  border: 1px solid transparent;
+  color: #333;
+}
+
+.sidebar-menu:hover {
+  border: 1px solid #000;
+  background-color: #f8f9fa;
+}
+
+.active-sidebar {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  color: #7c3aed;
+}
+
+.submenu-item {
+  border-radius: 12px;
+  color: black;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+
+.submenu-item:hover {
+  background-color: #f5f3ff;
+  color: black;
+  border: 1px solid black;
+}
+
+.active-submenu {
+  background-color: #f1ebff !important;
+  color: black !important;
+  border-radius: 12px;
+  border: 1px solid black !important;
+}
