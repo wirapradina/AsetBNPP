@@ -21,12 +21,12 @@ export default function Sidebar() {
 
   return (
     <div
-      className="bg-white border-end vh-100 overflow-auto position-relative"
-      style={{
-        width: collapsed ? "90px" : "240px",
-        transition: "0.3s",
-      }}
-    >
+  className="bg-white border-end vh-100 overflow-auto position-relative"
+  style={{
+    flex: `0 0 ${collapsed ? "90px" : "240px"}`,
+    transition: "0.3s",
+  }}
+>
 
       {/* TOGGLE BUTTON */}
       <button

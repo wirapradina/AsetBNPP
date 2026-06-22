@@ -17,6 +17,9 @@ import SatuanKerja from "./pages/SatuanKerja";
 import KodeAset from "./pages/KodeAset";
 import KodeBarang from "./pages/KodeBarang";
 
+import EditProvinsi from "./pages/EditProvinsi";
+import TambahProvinsi from "./pages/TambahProvinsi";
+
 import MainLayout from "./Layouts/MainLayout";
 
 function App() {
@@ -61,6 +64,11 @@ function App() {
             path="/settings/provinsi"
             element={<Provinsi />}
           />
+          <Route
+            path="/provinsi/edit/:id"
+            element={<EditProvinsi />}
+          />
+          <Route path="/provinsi/tambah" element={<TambahProvinsi />} />
 
           <Route
             path="/settings/kecamatan"

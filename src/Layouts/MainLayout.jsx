@@ -6,9 +6,11 @@ export default function MainLayout() {
   return (
     <div className="d-flex vh-100">
       <Sidebar />
-      <div className="flex-grow-1 d-flex flex-column"
+      <div
+  className="flex-grow-1 d-flex flex-column"
   style={{
     backgroundColor: "#f5f6fa",
+    minWidth: 0,
   }}
 >
         <div
